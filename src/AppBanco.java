@@ -3,5 +3,6 @@ public class AppBanco {
         Executivos executivo1 = new Executivos();
 
         executivo1.depositar(0);
+        executivo1.fazerTransferencia(3);
     }
 }
