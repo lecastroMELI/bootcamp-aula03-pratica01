@@ -1,7 +1,7 @@
-package classes;
+package desafioBancoDH.classes;
 
-import interfaces.ConsultarSaldo;
-import interfaces.Sacar;
+import desafioBancoDH.interfaces.ConsultarSaldo;
+import desafioBancoDH.interfaces.Sacar;
 
 public class Cobrador implements Sacar, ConsultarSaldo {
     @Override

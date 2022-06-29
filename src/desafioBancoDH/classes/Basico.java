@@ -1,8 +1,8 @@
-package classes;
+package desafioBancoDH.classes;
 
-import interfaces.ConsultarSaldo;
-import interfaces.PagarServico;
-import interfaces.Sacar;
+import desafioBancoDH.interfaces.ConsultarSaldo;
+import desafioBancoDH.interfaces.PagarServico;
+import desafioBancoDH.interfaces.Sacar;
 
 public class Basico implements Sacar, PagarServico, ConsultarSaldo {
     @Override

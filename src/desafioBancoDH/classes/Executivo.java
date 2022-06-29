@@ -1,7 +1,7 @@
-package classes;
+package desafioBancoDH.classes;
 
-import interfaces.Depositar;
-import interfaces.Transferir;
+import desafioBancoDH.interfaces.Depositar;
+import desafioBancoDH.interfaces.Transferir;
 
 public class Executivo implements Depositar, Transferir {
     @Override

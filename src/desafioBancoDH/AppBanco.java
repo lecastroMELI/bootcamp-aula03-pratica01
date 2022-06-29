@@ -1,8 +1,8 @@
-//OUTRA FORMA DE FAZER https://github.com/MauriKlein/com.dh.meli.bancoInterfaces/tree/main/src/com/company
+package desafioBancoDH;//OUTRA FORMA DE FAZER https://github.com/MauriKlein/com.dh.meli.bancoInterfaces/tree/main/src/com/company
 
-import classes.Basico;
-import classes.Cobrador;
-import classes.Executivo;
+import desafioBancoDH.classes.Basico;
+import desafioBancoDH.classes.Cobrador;
+import desafioBancoDH.classes.Executivo;
 
 public class AppBanco {
     public static void main(String[] args) {
