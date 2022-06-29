@@ -1,10 +1,12 @@
+package classes;
+
 import interfaces.Depositar;
 import interfaces.Transferir;
 
-public class Executivos implements Depositar, Transferir {
+public class Executivo implements Depositar, Transferir {
     @Override
     public void transacaoOk() {
-        System.out.println("- Operação realizada");
+        System.out.println("- Operação realizada com sucesso.");
     }
 
     @Override
@@ -14,7 +16,7 @@ public class Executivos implements Depositar, Transferir {
 
     @Override
     public void depositar(int valor) {
-        System.out.println("Depositando dinheiro...");
+        System.out.println("Depositando R$" + valor);
         if(valor > 0){
             transacaoOk();
         } else {
@@ -24,7 +26,7 @@ public class Executivos implements Depositar, Transferir {
 
     @Override
     public void fazerTransferencia(int valor) {
-        System.out.println("Fazendo transferência...");
+        System.out.println("Transferindo R$" + valor);
         if(valor > 0){
             transacaoOk();
         } else {
