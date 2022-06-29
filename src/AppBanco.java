@@ -13,6 +13,7 @@ public class AppBanco {
         System.out.println("\n\n---------Executivo---------");
         executivo1.depositar(0);
         executivo1.fazerTransferencia(3502);
+        executivo1.depositar(6927);
 
         System.out.println("\n\n---------Básico---------");
         clienteBasico1.consultarSaldo();
