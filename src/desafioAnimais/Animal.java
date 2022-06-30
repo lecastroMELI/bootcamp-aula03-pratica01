@@ -14,4 +14,9 @@ public abstract class Animal {
         }
     }
 
+    // Foi sugerido que implementasse a classe emitirSom aqui, de forma abstrata, para ser implementada por cada
+    // uma das classe animal: Cachorro, Gato e Vaca. (Tem um exemplo na classe Cachorro)
+    // SOURCE https://github.com/MauriKlein/com.dh.meli.animais/tree/main/src/model
+
+    // public abstract void emitirSom();
 }

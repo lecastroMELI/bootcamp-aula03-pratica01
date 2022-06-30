@@ -21,5 +21,8 @@ public class AppAnimais {
         System.out.println("GATO");
         felino.emitirSom("cat");
         felino.comerCarne();
+
+        // Esta chamada refere-se a implementação comentada presente na classe Cachorro.
+        // dog.emitirSom();
     }
 }
